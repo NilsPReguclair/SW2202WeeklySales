@@ -78,7 +78,7 @@ namespace SW2202WeeklySales
                         diagramm.X = tbxMonday.Location.X;
                         diagramm.Y = groundLine1.Y - increase[0];
                         diagramm.Width = tbxMonday.Width;
-                        diagramm.Height =  groundLine1.Y;
+                        diagramm.Height = increase[0];
                         fillRecBrush.Color = Color.Red;
 
                         
